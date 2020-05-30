@@ -30,11 +30,11 @@ d3.csv("assets/data/data.csv")
 
     //Parse Data/Cast as numbers
     healthData.forEach(function (data) {
-        data.state = data.state;
-        data.abbr = data.abbr;
+//         data.state = data.state;
+//         data.abbr = data.abbr;
         data.poverty = +data.poverty;
-        data.age = +data.age;
-        data.smokes = +data.smokes;
+//         data.age = +data.age;
+//         data.smokes = +data.smokes;
         data.healthcare = +data.healthcare;
     });
 
